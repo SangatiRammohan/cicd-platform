@@ -1,7 +1,7 @@
-const express = require('express');
+﻿const express = require('express');
 const router  = express.Router();
 
-// Placeholder business route — replace with real routes in Phase 5
+// Placeholder business route â€” replace with real routes in Phase 5
 router.get('/status', (_req, res) => {
   res.json({
     app:     process.env.APP_NAME || 'express-app',
